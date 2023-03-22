@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ruby": "^0.6.1",
+    "ruby-on-rails": "^0.0.0"
+  }
+}
