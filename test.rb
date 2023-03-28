@@ -17,7 +17,12 @@ def todos_contatos
 end
 
 def adc_contato
+    print "Nome: "
+    nome = gets.chomp
+    print "Telefone: "
+    telefone = gets.chomp.to_i
 
+    @agenda << {nome: nome, tel: telefone}
 end
 
 def ver_contato
