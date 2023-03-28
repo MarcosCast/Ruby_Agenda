@@ -40,7 +40,24 @@ def ver_contato
 end
 
 def edit_contato
+    print "Qual contato você deseja editar?"
+    nome = gets.chomp
 
+    @agenda.each do |contato|
+        if contato[:nome].downcase == (nome.downcase)
+            print "Nome para editar (Para manter o mesmo nome, aperte enter): "
+            nome_salvo = contato[:nome]
+
+            contato[:nome] = gets.chomp 
+            contato[:nome] = contato[:nome].empty? ? nome_salvo : contato[:nome]
+
+            print "Telefone para editar (Para manter o mesmo telefone, aperte enter): "
+            tel_salvo = contato[:tel]
+
+            contato[:tel] = gets.chomp
+            contato[:tel] = contato[:tel].empty? ? tel_salvo : contato[:tel]
+        end
+    end
 end
 
 def remove_contato
