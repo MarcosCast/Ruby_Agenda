@@ -2,12 +2,19 @@
 
 @agenda = [
     {
-        nome: "Marcos", telefone: "123456789"
+        nome: "Marcos", tel: "123456789"
     },
     {
-        nome: "Samuel", telefone: "987654321"
+        nome: "Samuel", tel: "987654321"
     }
 ]
+
+def todos_contatos
+    @agenda.each do |contato|
+        puts "#{contato[:nome]} - #{contato[:tel]}"
+        puts "------------------------------------------"
+    end
+end
 
 
 loop do
@@ -18,6 +25,8 @@ loop do
          when cod == 0 
             puts "Até Logo!"
             break
+         when cod == 1
+            todos_contatos
          end
 
             
