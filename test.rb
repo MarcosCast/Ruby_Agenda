@@ -12,8 +12,8 @@
 def todos_contatos
     @agenda.each do |contato|
         puts "#{contato[:nome]} - #{contato[:tel]}"
-        puts "------------------------------------------"
     end
+    puts "------------------------------------------"
 end
 
 def adc_contato
