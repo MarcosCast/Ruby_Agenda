@@ -23,9 +23,19 @@ def adc_contato
     telefone = gets.chomp.to_i
 
     @agenda << {nome: nome, tel: telefone}
+    puts "------------------------------------------"
 end
 
 def ver_contato
+    print "Qual contato você deseja?"
+    nome = gets.chomp
+
+    @agenda.each do |contato|
+        if contato[:nome].downcase.include?(nome.downcase)
+            puts "#{contato[:nome]} - #{contato[:tel]}"
+        end
+    end
+    puts "------------------------------------------"
 
 end
 
