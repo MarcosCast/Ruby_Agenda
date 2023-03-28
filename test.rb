@@ -16,6 +16,21 @@ def todos_contatos
     end
 end
 
+def adc_contato
+
+end
+
+def ver_contato
+
+end
+
+def edit_contato
+
+end
+
+def remove_contato
+
+end
 
 loop do
     puts "1. Contatos\n2. Adicionar Contato\n3. Ver Contato\n4. Editar Contato\n5. Remover Contato \n0. Sair"
@@ -27,6 +42,15 @@ loop do
             break
          when cod == 1
             todos_contatos
+         when cod == 2
+            adc_contato
+         when cod == 3
+            ver_contato
+         when cod == 4
+            edit_contato
+         when cod == 5
+            remove_contato
+
          end
 
             
