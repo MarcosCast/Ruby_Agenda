@@ -84,7 +84,4 @@ loop do
             remove_contato
 
          end
-
-            
-
 end
