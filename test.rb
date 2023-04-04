@@ -2,10 +2,31 @@
 
 @agenda = [
     {
-        nome: "Marcos", tel: "123456789"
+        nome: "Marcos", tel: "983456789"
     },
     {
-        nome: "Samuel", tel: "987654321"
+        nome: "Kalel", tel: "978934567"
+    },
+    {
+        nome: "Douglas", tel: "987653421"
+    },
+    {
+        nome: "Lucas", tel: "976542189"
+    },
+    {
+        nome: "Antenor", tel: "985670912"
+    },
+    {
+        nome: "Clara", tel: "974531286"
+    },
+    {
+        nome: "Jenny", tel: "982345671"
+    },
+    {
+        nome: "Olga", tel: "981234567"
+    },
+    {
+        nome: "Samantha", tel: "987654321"
     }
 ]
 
