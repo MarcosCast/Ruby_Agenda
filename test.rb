@@ -1,4 +1,4 @@
-
+# Essa é uma agenda para treinar os conhecimentos básicos em Ruby
 
 @agenda = [
     {
@@ -89,7 +89,9 @@ loop do
          when cod == 4
             edit_contato
          when cod == 5
-            remove_contato
-
+            remove_contato   
+         else
+            puts "Essa função não existe!"
+            puts "Digite uma função válida" 
          end
 end
