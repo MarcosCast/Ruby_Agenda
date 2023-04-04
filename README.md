@@ -1,5 +1,6 @@
 # Agenda de contatos em Ruby
 
+![Ruby](https://user-images.githubusercontent.com/118136902/229923509-d83aa3ec-5baa-418e-978d-4be480a4a468.png)
 
 # Apresentação do Projeto
 
